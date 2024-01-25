@@ -1,0 +1,24 @@
+/* src/components/Weather.css */
+.weather-container {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+  color: #fff;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.loading-error {
+  color: #e74c3c;
+}
+
+.loading-text {
+  color: #95a5a6;
+}
